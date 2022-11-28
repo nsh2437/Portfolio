@@ -1,4 +1,4 @@
-//1. 1╨нем n╠НаЖ х╕╪Жюг фР╠у, б╕╪Жюг гу ╠╦го╠Б
+//1. 1К╤─М└╟ nЙ╧▄Л╖─ М≥─Л┬≤Л²≤ М▐┴Й╥═, Л╖²Л┬≤Л²≤ М∙╘ Й╣╛М∙≤Й╦╟
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,7 +6,7 @@ int main(void)
 {
 	int n; int i = 0; int sum = 0;
 
-	printf("100 юлгоюг а╓╪Ж╦╕ ют╥бго╪╪©Д : ");
+	printf("100 Л²╢М∙≤Л²≤ Л═∙Л┬≤К╔╪ Л·┘К═╔М∙≤Л└╦Л ■ : ");
 	scanf("%d", &n);
 
 	for (i = 0; i <= n; i++) {
@@ -14,7 +14,7 @@ int main(void)
 			sum = sum + i;
 		}
 	}
-	printf("\n\nб╕╪Жюг гую╨ %d", sum);
+	printf("\n\nЛ╖²Л┬≤Л²≤ М∙╘Л²─ %d", sum);
 
 	sum = 0;
 
@@ -24,7 +24,7 @@ int main(void)
 			sum /= (n / 2);
 		}
 	}
-	printf("\n\nх╕╪Жюг фР╠ую╨ %d\n\n", sum);
+	printf("\n\nМ≥─Л┬≤Л²≤ М▐┴Й╥═Л²─ %d\n\n", sum);
 
 	return 0;
 }
