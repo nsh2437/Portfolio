@@ -1,4 +1,4 @@
-//4. ±¸±¸´Ü a´ÜºÎÅÍ b´Ü±îÁö Ãâ·ÂÇÏ±â
+//4. êµ¬êµ¬ë‹¨ aë‹¨ë¶€í„° bë‹¨ê¹Œì§€ ì¶œë ¥í•˜ê¸°
 
 #include <stdio.h>
 #include <stdlib.h> 
@@ -8,18 +8,18 @@ int main(void)
 
     int i; int j; int a; int b;
 
-    printf("±¸±¸´Ü! a´ÜºÎÅÍ b´Ü±îÁö!\n\n");
-    printf(" a´Ü : ");
+    printf("êµ¬êµ¬ë‹¨! aë‹¨ë¶€í„° bë‹¨ê¹Œì§€!\n\n");
+    printf(" aë‹¨ : ");
     scanf("%d", &a);
-    printf(" b´Ü : ");
+    printf(" bë‹¨ : ");
     scanf("%d", &b);
 
     if (a >= b) {
-        printf("b´Â aº¸´Ù´Â Ä¿¾ß ÇÕ´Ï´Ù!");
+        printf("bëŠ” aë³´ë‹¤ëŠ” ì»¤ì•¼ í•©ë‹ˆë‹¤!");
     }
     else {
         for (i = a; i <= b; i++) {
-            printf("\n%d´Ü : \n", i);
+            printf("\n%dë‹¨ : \n", i);
             for (j = 1; j <= 9; j++) {
                 printf("%d*%d=%d\n", i, j, i * j);
             }
