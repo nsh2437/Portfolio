@@ -1,4 +1,4 @@
-//6. ¹İÁö¸§ ±æÀÌ°¡ rÀÎ ¿ø³ĞÀÌ Ãâ·ÂÇÏ±â
+//6. ë°˜ì§€ë¦„ ê¸¸ì´ê°€ rì¸ ì›ë„“ì´ ì¶œë ¥í•˜ê¸°
  
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +13,7 @@ int Cir(int a)
 
 int main(void)
 {
-    printf("rÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+    printf("rì„ ì…ë ¥í•˜ì„¸ìš” : ");
     scanf("%d", &r);
     Cir(r);
     printf("%lf", s);
