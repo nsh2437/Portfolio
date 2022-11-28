@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/101855570/204324921-dab98dec-ef2e-498f-a638-ecc784c709e5.png)
 <p>
-  2학년 동안 학교에서 배운 내용들을 정리해 놓은 학습 공간입니다.
+  2022년 2학년 동안 학교에서 배운 내용들을 정리해 놓은 학습 공간입니다.
 </p>
 
 ## 학습 언어
